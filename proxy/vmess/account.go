@@ -4,9 +4,9 @@ import (
 	"google.golang.org/protobuf/proto"
 	"strings"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/b49nd1n/xray-core/common/errors"
+	"github.com/b49nd1n/xray-core/common/protocol"
+	"github.com/b49nd1n/xray-core/common/uuid"
 )
 
 // MemoryAccount is an in-memory form of VMess account.

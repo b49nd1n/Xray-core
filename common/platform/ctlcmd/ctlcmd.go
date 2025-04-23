@@ -7,9 +7,9 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/platform"
+	"github.com/b49nd1n/xray-core/common/buf"
+	"github.com/b49nd1n/xray-core/common/errors"
+	"github.com/b49nd1n/xray-core/common/platform"
 )
 
 func Run(args []string, input io.Reader) (buf.MultiBuffer, error) {

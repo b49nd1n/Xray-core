@@ -5,12 +5,12 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/strmatcher"
-	"github.com/xtls/xray-core/core"
-	feature_stats "github.com/xtls/xray-core/features/stats"
+	"github.com/b49nd1n/xray-core/app/stats"
+	"github.com/b49nd1n/xray-core/common"
+	"github.com/b49nd1n/xray-core/common/errors"
+	"github.com/b49nd1n/xray-core/common/strmatcher"
+	"github.com/b49nd1n/xray-core/core"
+	feature_stats "github.com/b49nd1n/xray-core/features/stats"
 	grpc "google.golang.org/grpc"
 )
 

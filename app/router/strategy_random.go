@@ -3,11 +3,11 @@ package router
 import (
 	"context"
 
-	"github.com/xtls/xray-core/app/observatory"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/extension"
+	"github.com/b49nd1n/xray-core/app/observatory"
+	"github.com/b49nd1n/xray-core/common"
+	"github.com/b49nd1n/xray-core/common/dice"
+	"github.com/b49nd1n/xray-core/core"
+	"github.com/b49nd1n/xray-core/features/extension"
 )
 
 // RandomStrategy represents a random balancing strategy

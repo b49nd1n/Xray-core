@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xtls/xray-core/common/protocol"
-	. "github.com/xtls/xray-core/common/reflect"
-	cserial "github.com/xtls/xray-core/common/serial"
-	iserial "github.com/xtls/xray-core/infra/conf/serial"
-	"github.com/xtls/xray-core/proxy/shadowsocks"
+	"github.com/b49nd1n/xray-core/common/protocol"
+	. "github.com/b49nd1n/xray-core/common/reflect"
+	cserial "github.com/b49nd1n/xray-core/common/serial"
+	iserial "github.com/b49nd1n/xray-core/infra/conf/serial"
+	"github.com/b49nd1n/xray-core/proxy/shadowsocks"
 )
 
 func TestMashalAccount(t *testing.T) {

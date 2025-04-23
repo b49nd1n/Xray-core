@@ -3,13 +3,13 @@ package dispatcher
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/bittorrent"
-	"github.com/xtls/xray-core/common/protocol/http"
-	"github.com/xtls/xray-core/common/protocol/quic"
-	"github.com/xtls/xray-core/common/protocol/tls"
+	"github.com/b49nd1n/xray-core/common"
+	"github.com/b49nd1n/xray-core/common/errors"
+	"github.com/b49nd1n/xray-core/common/net"
+	"github.com/b49nd1n/xray-core/common/protocol/bittorrent"
+	"github.com/b49nd1n/xray-core/common/protocol/http"
+	"github.com/b49nd1n/xray-core/common/protocol/quic"
+	"github.com/b49nd1n/xray-core/common/protocol/tls"
 )
 
 type SniffResult interface {

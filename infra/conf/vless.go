@@ -8,14 +8,14 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/proxy/vless"
-	"github.com/xtls/xray-core/proxy/vless/inbound"
-	"github.com/xtls/xray-core/proxy/vless/outbound"
+	"github.com/b49nd1n/xray-core/common/errors"
+	"github.com/b49nd1n/xray-core/common/net"
+	"github.com/b49nd1n/xray-core/common/protocol"
+	"github.com/b49nd1n/xray-core/common/serial"
+	"github.com/b49nd1n/xray-core/common/uuid"
+	"github.com/b49nd1n/xray-core/proxy/vless"
+	"github.com/b49nd1n/xray-core/proxy/vless/inbound"
+	"github.com/b49nd1n/xray-core/proxy/vless/outbound"
 	"google.golang.org/protobuf/proto"
 )
 
