@@ -8,6 +8,11 @@ import (
 	_ "github.com/xtls/xray-core/main/distro/all"
 )
 
+func MainFunc(args []string){
+	os.Args = args
+	main()
+}
+
 func main() {
 	os.Args = getArgsV4Compatible()
 
