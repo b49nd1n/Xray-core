@@ -1,4 +1,4 @@
-module github.com/xtls/xray-core
+module github.com/b49nd1n/xray-core
 
 go 1.24
 
